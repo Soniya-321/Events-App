@@ -1,0 +1,35 @@
+/* Write your CSS here */
+@media screen and (min-width: 992px) {
+  .events-app-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .app-container {
+    background-color: #323f4b;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 60vw;
+    border: 1px solid;
+  }
+  .heading {
+    font-family: roboto;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 40px;
+  }
+  .events-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    padding: 0;
+  }
+  .active-events-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
